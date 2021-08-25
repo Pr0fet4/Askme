@@ -1,0 +1,25 @@
+.light {
+    background: #f8f8f8;
+    color: #29292e;
+}
+
+.dark {
+    background: #3d3d3d;
+    color: #f8f8f8;
+
+    .question {
+        background: rgb(110, 110, 110);
+
+        &.answered {
+            background: #505050;
+        }
+        
+        p {
+            color: #f8f8f8;
+        }
+
+        footer span {
+            color: #29292e;
+        }
+    }
+}
